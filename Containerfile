@@ -1,5 +1,5 @@
 # Farkas Mark / xfmbi9 httpd container
-FROM ubi7/ubi:7.6
+FROM registry.redhat.io/ubi7/ubi:7.6
 LABEL description="XFMBI9 custom httpd container"
 MAINTAINER Farkas Mark <markfarkas9810@gmail.com>
 RUN yum install -y httpd && yum clean all
